@@ -1,8 +1,8 @@
-import ProductCard from "./components/ProductCard";
+import Product from "./pages/Product";
 import "./App.css"
 
 const App = () => {
-  return <ProductCard/>
+  return <Product/>
 };
 
 export default App;

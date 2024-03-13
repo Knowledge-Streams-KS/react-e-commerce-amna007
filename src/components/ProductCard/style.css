@@ -1,0 +1,22 @@
+.product-card {
+  border: 1px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.3s ease;
+  display: inline-block;
+  padding: 15px 10px 10px 10px;
+}
+
+.product-card:hover {
+  transform: scale(0.95);
+}
+
+.product-card:hover img {
+  transform: scale(1.1);
+}
+
+.price {
+  color: rgb(69, 0, 218);
+  font-weight: bold;
+}
